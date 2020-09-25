@@ -3,3 +3,4 @@ some content
 change
 foo
 baz
+boo
