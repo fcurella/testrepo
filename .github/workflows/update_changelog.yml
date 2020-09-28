@@ -16,7 +16,6 @@ jobs:
       uses: "fcurella/gh-action-next-version@main"
       id: nextversion
       with:
-        githubToken: ${{ secrets.GITHUB_TOKEN}}
         part: "patch"
     - name: Update Changelog
       uses: "fcurella/gh-action-update-changelog@main"
