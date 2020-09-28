@@ -5,6 +5,10 @@ Changelog
 ` - 2020-09-28 <https://github.com/fcurella/testrepo/compare/...>`_
 -------------------------------------------------------------------
 
+* Update test.txt (#12) Thanks @fcurella.
+` - 2020-09-28 <https://github.com/fcurella/testrepo/compare/...>`_
+-------------------------------------------------------------------
+
 * Update test.txt (#11) Thanks @fcurella.
 -------------------------------------------------------------------------------------
 
