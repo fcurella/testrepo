@@ -4,3 +4,4 @@ change
 foo
 baz
 boo
+apple
