@@ -6,3 +6,4 @@ baz
 boo
 apple
 banana
+cherry
