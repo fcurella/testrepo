@@ -17,8 +17,13 @@ jobs:
     - name: Update Changelog
       uses: "fcurella/gh-action-update-changelog@main"
       with:
-        githubToken: ${{ secrets.GITHUB_TOKEN }}  
+        githubToken: ${{ secrets.GITHUB_TOKEN }}
         changelogPath: "CHANGELOG.rst"
         changelogLine : 4
         currentVersion: ${{ steps.nextversion.outputs.currentVersion }}
         nextVersion: ${{ steps.nextversion.outputs.nextVersion }}
+    - name: Bump version
+      uses: "fcurella/gh-action-bump2version@main"
+      with:
+        githubToken: ${{ secrets.GITHUB_TOKEN }}
+        part: "patch"
