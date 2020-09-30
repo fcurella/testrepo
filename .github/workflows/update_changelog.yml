@@ -8,6 +8,14 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event.pull_request.merged_at != null
     steps:
+    - name: 'Wait for status checks'
+      id: waitforstatuschecks
+      uses: "fcurella/gh-status-check@main"
+      with:
+        ignoreContexts: coverage/coveralls
+        checkInterval: 12
+      env:
+        GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
     - uses: actions/checkout@v2
     - name: Get Next Version
       uses: "fcurella/gh-action-next-version@main"
