@@ -4,6 +4,11 @@ Changelog
 `v1.0.3 - 2020-09-30 <https://github.com/fcurella/testrepo/compare/v1.0.2...v1.0.3>`_
 -------------------------------------------------------------------------------------
 
+* Update test.txt (#20) Thanks @fcurella.
+
+`v1.0.3 - 2020-09-30 <https://github.com/fcurella/testrepo/compare/v1.0.2...v1.0.3>`_
+-------------------------------------------------------------------------------------
+
 * Update test.txt (#19) Thanks @fcurella.
 
 `v1.0.3 - 2020-09-29 <https://github.com/fcurella/testrepo/compare/v1.0.2...v1.0.3>`_
