@@ -19,3 +19,4 @@ lemon
 mango
 nectarine
 orange
+pomegranate
