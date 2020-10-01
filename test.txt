@@ -21,3 +21,4 @@ nectarine
 orange
 pomegranate
 quinoa
+rice
