@@ -15,8 +15,7 @@ jobs:
         ignoreContexts: coverage/coveralls
         ignoreActions: waitforstatuschecks
         checkInterval: 12
-      env:
-        GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+        githubToken: ${{ secrets.GITHUB_TOKEN }}
     - uses: actions/checkout@v2
     - name: Get Next Version
       uses: "fcurella/gh-action-next-version@main"
